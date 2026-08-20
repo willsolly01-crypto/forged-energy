@@ -24,6 +24,8 @@ const config: Config = {
           500: "#FF7A1A",
           600: "#E85F00",
         },
+        success: "#2ECC71",
+        warning: "#E74C3C",
       },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
