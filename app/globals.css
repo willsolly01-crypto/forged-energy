@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #07070a;
+  color: #f5f5f2;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(245, 245, 242, 0.25);
+}
+
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+.bg-hex {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cg fill='none' stroke='%23F2B705' stroke-opacity='0.06'%3E%3Cpath d='M28 0L56 16.6V50L28 66.6L0 50V16.6Z'/%3E%3Cpath d='M28 33.3L56 50V83.3L28 100L0 83.3V50Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 56px 100px;
+}
+
+.mask-fade-b {
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}

@@ -1,0 +1,2 @@
+export const FOUNDING_BATCH_SIZE = 500;
+export const FOUNDING_PRICE_CENTS = 1899; // $18.99 AUD
