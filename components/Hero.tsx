@@ -1,7 +1,7 @@
-import Image from "next/image";
 import WaitlistForm from "./WaitlistForm";
 import BuyButton from "./BuyButton";
 import FoundingCounter from "./FoundingCounter";
+import PouchIllustration from "./PouchIllustration";
 
 export default function Hero() {
   return (
@@ -94,12 +94,8 @@ export default function Hero() {
         <div className="order-1 flex justify-center lg:order-2">
           <div className="relative animate-float">
             <div className="absolute inset-0 -z-10 rounded-full bg-gold-500/25 blur-[90px]" />
-            <Image
-              src="/pouch-orange.webp"
-              alt="FORGED Caffeine Gummies — Orange, 40mg caffeine, zero sugar, 60 gummies"
-              width={420}
-              height={573}
-              priority
+            <PouchIllustration
+              flavor="orange"
               className="w-[260px] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] sm:w-[340px] lg:w-[400px]"
             />
           </div>
